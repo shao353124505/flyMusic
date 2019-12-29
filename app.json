@@ -4,13 +4,18 @@
     "pages/broadcast/broadcast",
     "pages/rankDetail/rankDetail",
     "pages/broadDetail/broadDetail",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/self/self"
   ],
   "tabBar": {
     "selectedColor": "#1296DB",
     "color": "#8A8A8A",
     "position": "top",
     "list": [
+      {
+        "pagePath": "pages/rank/rank",
+        "text": "每日推荐"
+      },
       {
         "pagePath": "pages/rank/rank",
         "text": "音乐排行榜"
@@ -20,16 +25,24 @@
         "text": "精选电台"
       },
       {
-        "pagePath": "pages/search/search",
-        "text": "搜索音乐"
+        "pagePath": "pages/self/self",
+        "text": "我的"
       }
     ]
   },
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh":true,
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "",
     "navigationBarTextStyle": "black"
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
   },
   "sitemapLocation": "sitemap.json"
 }
