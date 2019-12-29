@@ -24,11 +24,11 @@
   margin-left: 20rpx;
 }
 .music-name{
-  font-size: 30rpx;
+  font-size: 25rpx;
   font-weight: bold;
 }
 .music-artist{
-  font-size: 25rpx;
+  font-size: 20rpx;
   color: #6a6a6a;
   font-weight: bold;
 }
@@ -37,8 +37,8 @@
   margin-right: 30rpx;
 }
 .p-right image{
-  width: 30rpx;
-  height: 30rpx;
+  width: 40rpx;
+  height: 40rpx;
 }
 .playing{
   animation: playing 3.5s linear infinite;
